@@ -1,3 +1,31 @@
+@font-face {
+    font-family: 'Norse-Bold';
+    src: url('assets/fonts/Norse-Bold.otf');
+}
+
 body {
-    background-color: aquamarine;
+    background-color: #333;
+}
+
+.row {
+    height: 90vh;
+    margin-top: 5vh;
+}
+
+.hero {
+    background: no-repeat url('assets/images/leaves.jpeg');
+    background-size: cover;
+}
+
+.odin-banner {
+    margin-top: 200px;
+}
+
+.hero img {
+    width: 80px;
+}
+
+.hero h1 {
+    font-family: 'Norse-Bold', sans-serif;
+    display: inline;
 }
